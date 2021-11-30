@@ -7,58 +7,25 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/hello_world"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="30dp"
-        android:gravity="center"
-        android:text="This is the first application from Group 8! "
-        android:textSize="31dp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/surname1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:layout_below="@id/hello_world"
-        android:text="Roberts Šūmanis"
-        android:textSize="20dp"
-        android:layout_centerHorizontal="true"/>
-
-    <TextView
-        android:id="@+id/surname2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:layout_below="@id/surname1"
-        android:text="Dāvids Markavs"
-        android:textSize="20dp"
-        android:layout_centerHorizontal="true"/>
-
-    <TextView
-        android:id="@+id/surname3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:layout_below="@id/surname2"
-        android:text="Artūrs Kočans"
-        android:textSize="20dp"
-        android:layout_centerHorizontal="true"/>
-
-    <TextView
-        android:id="@+id/some_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/surname3"
         android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="50dp"
-        android:text="The application was developed by Roberts Šūmanis!"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:gravity="center"/>
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Hello World!"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Artūrs Kočans"
+        android:textSize="20dp" />
+
 </RelativeLayout>
